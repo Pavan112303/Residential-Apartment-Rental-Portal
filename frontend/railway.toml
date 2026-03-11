@@ -1,0 +1,11 @@
+# Railway configuration for the Angular frontend service.
+# In Railway dashboard: set this service's Root Directory to "frontend/"
+# The Dockerfile builds Angular and serves it via nginx on $PORT.
+
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10

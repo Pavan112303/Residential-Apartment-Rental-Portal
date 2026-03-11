@@ -1,0 +1,67 @@
+# ─── Python / Backend ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+*.log
+*.sqlite3
+*.db
+
+# Backend one-off scripts (development/migration utilities)
+backend/alter_db.py
+backend/backfill_audit.py
+backend/backfill_booking_payments.py
+backend/check_payments_db.py
+backend/check_users.py
+backend/create_admin.py
+backend/create_audit_table.py
+backend/create_test_user.py
+backend/init_db.py
+backend/test_create_tower.py
+backend/test_db.py
+backend/test_db3.py
+backend/verify_audit.py
+backend/api_test_500.py
+backend/routes.txt
+
+# ─── Node / Frontend ───────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.angular/cache/
+frontend/dist-ssr/
+frontend/tmp/
+
+# ─── IDE & OS ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Docker ────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── Temp ──────────────────────────────────────────────────
+_temp_cli/
+*.tmp
+*.bak
+
+# ─── PDF / Generated assets ────────────────────────────────
+backend/static/leases/
