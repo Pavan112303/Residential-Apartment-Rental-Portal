@@ -12,7 +12,7 @@
 
 ## 📋 Project Description
 
-The **Residential Apartment Rental Portal** (KOTS Portal) is a complete apartment management solution connecting tenants and administrators in a unified platform. Tenants can discover available units, submit booking requests, manage leases, raise maintenance tickets, and track payments. Administrators get a full command centre — managing towers, approving bookings, generating leases, tracking financials, and overseeing maintenance workflows.
+The **Residential Apartment Rental Portal** is a complete apartment management solution connecting tenants and administrators in a unified platform. Tenants can discover available units, submit booking requests, manage leases, raise maintenance tickets, and track payments. Administrators get a full command centre — managing towers, approving bookings, generating leases, tracking financials, and overseeing maintenance workflows.
 
 ---
 
@@ -156,7 +156,6 @@ Create a `.env` file in the `backend/` directory (use `.env.example` as a templa
 | `JWT_SECRET` | JWT signing secret | `your-jwt-secret` |
 | `FRONTEND_URL` | Allowed frontend origin for CORS | `http://localhost:4200` |
 | `FLASK_ENV` | Environment mode | `development` or `production` |
-| `PORT` | Port for the web server | `8080` (set by Railway automatically) |
 
 ---
 
@@ -182,12 +181,14 @@ npm start
 ### Default Admin Credentials
 ```
 Email:    admin@rentalportal.com
-Password: Admin@123
+Password: admin123
 ```
 
 Tenants can self-register via the portal's sign-up page.
-
----
+```
+Email:    pavankumar@gmail.com
+Password: Pavan@123
+```
 
 ## 🚀 Railway Deployment Instructions
 
@@ -274,6 +275,4 @@ All API endpoints are prefixed with `/api`.
 
 ---
 
-## 📄 License
 
-This project is for educational and portfolio purposes.
